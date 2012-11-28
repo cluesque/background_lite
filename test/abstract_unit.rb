@@ -5,4 +5,4 @@ require 'test/unit'
 require 'mocha'
 require File.dirname(__FILE__) + '/../init'
 
-RAILS_ENV = 'test'
+Rails.env = 'test'
